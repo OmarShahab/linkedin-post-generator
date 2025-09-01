@@ -1,6 +1,3 @@
-Here is a detailed README for the `omarsahab-linkedin-post-generator` project, based on the provided file contents.
-
------
 
 # LinkedIn Post Generator
 
@@ -22,10 +19,10 @@ This application uses Langchain and Langgraph to create a tool for generating Li
 ## Features
 
   - **Post Generation**: Generates multiple LinkedIn post drafts.
-  - [cite\_start]**Image Generation**: Creates images based on prompts using Google's Gemini API[cite: 178].
-  - [cite\_start]**Post Editing**: Allows editing posts with a Large Language Model (LLM)[cite: 181].
-  - [cite\_start]**Streaming Response**: The application is designed to stream responses as they are generated[cite: 179].
-  - [cite\_start]**Health Check**: The backend includes a health check endpoint at `/health` to ensure the service is running[cite: 178].
+  - **Image Generation**: Creates images based on prompts using Google's Gemini API[cite: 178].
+  - **Post Editing**: Allows editing posts with a Large Language Model (LLM)[cite: 181].
+  - **Streaming Response**: The application is designed to stream responses as they are generated[cite: 179].
+  - **Health Check**: The backend includes a health check endpoint at `/health` to ensure the service is running[cite: 178].
 
 ## Project Structure
 
@@ -92,8 +89,8 @@ This project uses Docker Compose to manage both the backend and frontend service
 
 <!-- end list -->
 
-  - [cite\_start]The **backend** service will be available at `http://localhost:8000`[cite: 159].
-  - [cite\_start]The **frontend** service will be available at `http://localhost:3000`[cite: 161].
+  - The **backend** service will be available at `http://localhost:8000`[cite: 159].
+  - The **frontend** service will be available at `http://localhost:3000`[cite: 161].
 
 ## License
 
